@@ -1,0 +1,14 @@
+import java.io.*;
+
+class write
+{
+	public static void main(String[] args) throws Exception
+	{
+		FileWriter f = new FileWriter("a.txt");
+
+		f.write("java is the best language");
+	      f.close();
+		System.out.println("succesfully data wrote in file");
+
+     }
+}
